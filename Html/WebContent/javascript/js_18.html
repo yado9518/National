@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> </title>
+</head>
+<body>
+<script>
+  document.write("<table border='1'>");
+  document.write("<tr><th colspan='8'>자바스크립트 구구단</th></tr>");
+  /* 문제1) 표테이블 2행에 2단부터 9단까지 열제목을 <th>태그안에 출력되게 for반복문
+  을 사용한다.  */
+  document.write("<tr>");
+  for(var i=2; i<=9; i++){
+	  document.write("<th>" + i + "단</th>");
+  }
+  document.write("</tr>");
+  
+  for(var j=1; j<=9; j++){
+	  document.write("<tr>")
+	  for(var i=2; i<=9; i++)	{
+		  document.write("<td>" + i + " X " + j + " = " + (i*j) + "</td>");
+	  }
+	  document.write("</tr>");
+  }
+  document.write("</table>");
+</script>
+</body>
+</html>

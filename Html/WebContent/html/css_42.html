@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ul li태그 메뉴만들기</title>
+<style type="text/css">
+.menubar li{ /*문제) 수평 정렬로 바꿔서 배경색이 노랑, 테두리선 두께 1픽셀 , 실선, 테두리선색 빨강, 상하좌우 바깥여백 0, 상하좌우 안여백 .5em등을 설정한 메뉴구성*/
+	display: inline;
+	background-color: yellow;
+	border: 1px solid red;
+	margin: 0;
+	padding: 0.5em;
+}
+a:hover{
+	text-decoration: none;
+}
+</style>
+</head>
+<body>
+	<ul class="menubar">
+		<li><a href="#">홈으로</a></li>
+		<li><a href="#">회사소개</a></li>
+		<li><a href="#">제품 소개</a></li>
+		<li><a href="#">질문과 대답</a></li>
+		<li><a href="#">연락처</a></li>
+	</ul>
+</body>
+</html>

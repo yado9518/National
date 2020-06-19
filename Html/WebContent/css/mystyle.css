@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+h1{
+	border-style:  2px 0;
+	border-bottom: 5px solid gray;
+	border-right: 5px solid gray;
+	color: red;
+	background-color: black;
+}
+p{
+	
+	color: #45c13c;
+}

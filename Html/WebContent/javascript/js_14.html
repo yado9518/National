@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script type="text/javascript">
+	var msg="";
+	/*
+	* Date 날짜 내장객체를 사용하여 시간값을 구한뒤 if else if다중조건문을 사용하여 오전이면 "Good Morning", 오후이면 'Good Afternoon', 저녁이면 'Good Evening'을
+	* 변수에 저장한 다음 alert()내장함수를 사용하여 메시지 창을 띄우세요. (구글검색)
+	*/
+	var d = new Date().getHours();
+	if(d<12){
+		msg = "Good Morning";
+	}else if(d>18){
+		msg = "Good Afternoon";
+	}else{
+		msg = "Good Evening";	
+	}
+	alert(msg);
+</script>
+</head>
+<body>
+
+</body>
+</html>
